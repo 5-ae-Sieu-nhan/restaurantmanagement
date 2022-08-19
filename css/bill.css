@@ -1,0 +1,178 @@
+body {
+  background-color: #fff1e5;
+}
+
+header {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  border: none;
+  padding: 8px;
+  background-color: #ff922c;
+  border-radius: 10px;
+  gap: 10px;
+  box-sizing: border-box;
+}
+
+header img {
+  padding-right: 50%;
+}
+
+.listFood {
+  margin-top: 30px;
+  margin-left: 420px;
+  margin-right: 420px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foodImg {
+  border-radius: 50%;
+  border: 7px solid #ffffff;
+  filter: drop-shadow(0px 0px 12px rgba(255, 146, 44, 0.47));
+}
+
+a {
+  text-decoration: none;
+}
+
+.feedbackBtn {
+  color: black;
+  background-color: #ff922c;
+  padding: 10px;
+  border-radius: 15px;
+  opacity: 0.85;
+}
+
+.feedbackBtn:hover {
+  opacity: 1.5;
+  transition: 0.4s;
+}
+
+.shippingInfo {
+  margin-top: 30px;
+  margin-left: 420px;
+  margin-right: 420px;
+  box-sizing: border-box;
+  background-color: #e3f988;
+  border-radius: 20px;
+}
+
+.shippingTilte {
+  display: flex;
+  justify-content: center;
+}
+
+.shippingAddress {
+  display: flex;
+}
+
+.shippingAddress input {
+  width: 80%;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 40px;
+  outline: none;
+}
+
+.shippingPhone {
+  display: flex;
+}
+
+.shippingPhone input {
+  width: 80%;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 40px;
+  outline: none;
+}
+
+.shippingEmail {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.shippingEmail input {
+  width: 80%;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 40px;
+  outline: none;
+}
+
+.shippingAddress,
+.shippingEmail,
+.shippingPhone {
+  padding-left: 40px;
+}
+
+.paymentInfo {
+  margin-top: 70px;
+  margin-left: 420px;
+  margin-right: 420px;
+  box-sizing: border-box;
+  background-color: #e3f988;
+  border-radius: 20px;
+}
+
+.paymentTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.totalPrice,
+.shippingPrice,
+.voucherPick {
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+.voucherPick {
+  display: flex;
+  justify-content: space-between;
+}
+
+.voucherList {
+  align-self: center;
+}
+
+.voucherList button {
+  margin-right: 50%;
+  padding: 15px;
+  background-color: #ff922c;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  opacity: 0.85;
+  font-size: 20px;
+}
+
+.voucherList button:hover {
+  opacity: 1;
+}
+
+.totalPayment {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.totalPayNum {
+  font-size: 50px;
+  align-self: center;
+}
+
+.totalPay {
+  font-size: 50px;
+}
