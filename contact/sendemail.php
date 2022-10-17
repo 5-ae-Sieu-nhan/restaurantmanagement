@@ -24,13 +24,13 @@ mysqli_close($conn);
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'anhndhth2110002@fpt.edu.vn'; 
-    $mail->Password = 'hoanganh1201'; 
+    $mail->Username = 'gmail chinh'; 
+    $mail->Password = 'matkhaugmail'; 
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = '587';
 
-    $mail->setFrom('anhndhth2110002@fpt.edu.vn'); 
-    $mail->addAddress('anhndhth2110002@fpt.edu.vn'); 
+    $mail->setFrom('gmail chinh'); 
+    $mail->addAddress('gmail chinh'); 
 
     $mail->isHTML(true);
     $mail->Subject = 'Message Received (Contact Page)';
